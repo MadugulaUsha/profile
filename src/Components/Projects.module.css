@@ -26,8 +26,8 @@
     .pro{
         margin-left: 3rem;
     }
-    .card li{
-        text-align: left;
-    }
+   .card{
+    width: 85%;
+   }
    
   }
