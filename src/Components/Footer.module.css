@@ -1,0 +1,27 @@
+.contactDetails {
+    margin-bottom: 0;
+   align-items: center;
+   text-align: center;
+   border-top: 2px solid black;
+}
+.contact{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.contact div{
+    display: flex;
+}
+
+h6{
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+    .contact{
+    align-items: center;
+    }
+    .icon{
+        align-items: center; 
+    }
+
+  }

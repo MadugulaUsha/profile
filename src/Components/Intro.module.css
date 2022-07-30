@@ -1,0 +1,26 @@
+
+.intro{
+  align-items: center;
+  width: 100%;
+    display: flex;
+   padding-top: 10rem;
+   margin-left: 7rem;
+}
+.intro p{
+  width: 100%;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.intro img{
+  height: 17rem;
+  width: 18rem;
+border-radius: 50%;
+}
+@media screen and (max-width: 476px) {
+  .intro {
+    align-items: center;
+    width: 70%;
+   display: grid;
+  }
+
+}

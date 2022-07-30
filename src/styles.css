@@ -1,0 +1,17 @@
+<h1>Product List</h1>
+<table border="black">
+  <tr>
+    <th>Product Name</th>
+    <th>Quantity</th>
+  </tr>
+  <tr *ngFor="let product of data">
+    <td>{{product.name}}</td>
+    <td>{{product.quantity}}</td>
+  </tr>
+  
+</table>
+<hr>
+<h2>Add New product</h2>
+Enter Product Name:<input type="text" [(ngModel)]="name"><br>
+Enter Product Quantity:<input type="text"  [(ngModel)]="quat"><br>
+<button *ngIf="name && quat" (click)="addProduct()">Add product</button>

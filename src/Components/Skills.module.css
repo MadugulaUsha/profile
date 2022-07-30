@@ -1,0 +1,39 @@
+ul{
+    list-style: none;   
+}
+.main_skill{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    
+}
+.main_skill h3:hover{
+  text-decoration: underline;
+  width: fit-content;
+ 
+}
+.skil{
+    display: flex;
+    flex-direction: row;
+    transition: transform .2s;
+}
+.skil li{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px;
+}
+.skil li:hover{
+    transform: scale(1.5)
+}
+/* .skil li{
+    border: 2px solid black;
+    padding:20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+} */
+@media screen and (max-width: 600px) {
+    .skil{
+      width: 100%;
+      flex-direction: column;
+    }
+
+  }

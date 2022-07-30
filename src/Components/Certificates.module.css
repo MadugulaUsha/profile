@@ -1,0 +1,15 @@
+.heading{
+    margin-left: 7rem;
+}
+.heading a{
+  color: white;
+  text-decoration: none;
+}
+.heading h3:hover{
+  border-bottom: 2px solid white;
+  width: fit-content;
+}
+.heading li{
+    margin: 15px;
+}
+  

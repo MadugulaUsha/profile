@@ -1,0 +1,34 @@
+.pro{
+    margin-left: 7rem;
+}
+.Project{
+    width: 70%;
+    align-items: center;
+    display: grid;
+}
+.pro a{
+    text-decoration: none;
+    color: white;
+}
+.pro h3:hover{
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border:1px solid white;
+    margin: 15px;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+  }  
+  @media screen and (max-width: 600px) {
+
+    .card{
+        justify-content: center;
+        display: grid;
+    }
+    .card{
+        align-items: center;
+    }
+  }
