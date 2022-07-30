@@ -19,7 +19,8 @@ border-radius: 50%;
 @media screen and (max-width: 476px) {
   .intro {
     align-items: center;
-    width: 70%;
+    width: 65%;
+    margin-left: 3rem;
    display: grid;
   }
 

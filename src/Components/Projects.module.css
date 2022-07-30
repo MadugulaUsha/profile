@@ -4,7 +4,7 @@
 .Project{
     width: 70%;
     align-items: center;
-    display: grid;
+    
 }
 .pro a{
     text-decoration: none;
@@ -23,12 +23,11 @@
     padding: 20px;
   }  
   @media screen and (max-width: 600px) {
-
-    .card{
-        justify-content: center;
-        display: grid;
+    .pro{
+        margin-left: 3rem;
     }
-    .card{
-        align-items: center;
+    .card li{
+        text-align: left;
     }
+   
   }

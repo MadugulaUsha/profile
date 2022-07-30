@@ -8,7 +8,7 @@ import Footer from './Footer'
 import '../App.css';
 function Home() {
   return (
-    <div className='App'>
+    <div className='home'>
        <Header/>
     <Intro/>
     <Skills/>

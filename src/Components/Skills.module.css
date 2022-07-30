@@ -32,8 +32,12 @@ ul{
 } */
 @media screen and (max-width: 600px) {
     .skil{
-      width: 100%;
+      width: 70%;
       flex-direction: column;
     }
-
+    .main_skill{
+        margin-top: 2rem;
+        margin-left: 3rem;
+        
+    }
   }

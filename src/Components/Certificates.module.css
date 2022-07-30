@@ -12,4 +12,9 @@
 .heading li{
     margin: 15px;
 }
-  
+@media screen and (max-width: 600px) {
+  .heading{
+      margin-left: 3rem;
+  }
+ 
+}
