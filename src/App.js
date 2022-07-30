@@ -1,9 +1,9 @@
 
 import Certificates from './Components/Certificates';
-import Header from './Components/Header';
-import Intro from './Components/Intro';
-import Skills from './Components/Skills';
-import Footer from './Components/Footer';
+// import Header from './Components/Header';
+// import Intro from './Components/Intro';
+// import Skills from './Components/Skills';
+// import Footer from './Components/Footer';
 import Home from './Components/Home';
 // import './App.css'
 import Projects from './Components/Projects';
