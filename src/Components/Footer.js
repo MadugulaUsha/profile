@@ -6,7 +6,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import SentimentVerySatisfiedTwoToneIcon from '@mui/icons-material/SentimentVerySatisfiedTwoTone';
-import classes from './Footer.module.css'
+import classes from './Footer.module.css';
+
 
 
 function Footer() {
@@ -19,10 +20,10 @@ function Footer() {
 <div><CallTwoToneIcon/>6281124881</div>
 <div><MailOutlineTwoToneIcon/>  madugulau@gmail.com</div>
 </div>
-<div className='icon'>
-<GitHubIcon/>
-<LinkedInIcon/>
-<FacebookIcon/>
+<div className={classes.icon}>
+<a href= "https://github.com/MadugulaUsha" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+<a href="https://www.linkedin.com/in/usha-madugula-64288a1ba/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+{/* <a herf="https://www.facebook.com/people/Usha-Madugula/100084079875558/" target="_blank" rel="noopener"><FacebookIcon/></a> */}
 </div>
 </div>
   )
