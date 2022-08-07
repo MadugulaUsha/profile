@@ -4,7 +4,7 @@ import MailOutlineTwoToneIcon from '@mui/icons-material/MailOutlineTwoTone';
 import CopyrightTwoToneIcon from '@mui/icons-material/CopyrightTwoTone';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookIcon from '@mui/icons-material/Facebook';
+//import FacebookIcon from '@mui/icons-material/Facebook';
 import SentimentVerySatisfiedTwoToneIcon from '@mui/icons-material/SentimentVerySatisfiedTwoTone';
 import classes from './Footer.module.css';
 
